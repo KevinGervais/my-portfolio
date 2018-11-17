@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTimes, faAngleLeft, faAngleRight } from '@fortawesome/pro-solid-svg-icons'
+import { faTimes, faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons'
 export default class ImageGalery extends React.Component {
   constructor (props) {
     super(props)

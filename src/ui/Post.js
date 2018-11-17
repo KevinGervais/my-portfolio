@@ -4,7 +4,7 @@ import imageMap from '../images'
 import { WebsiteDict } from '../WebsiteDict'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faGlobe } from '@fortawesome/pro-solid-svg-icons'
+import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 export default class TopNav extends React.Component {
   render () {
     return (
