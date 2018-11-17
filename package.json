@@ -31,7 +31,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "devDependencies": {
-    "@fortawesome/fontawesome-pro": "^5.5.0"
-  }
+  "devDependencies": {}
 }
