@@ -28,18 +28,17 @@ export default class TopNav extends React.Component {
           {!!(this.props.buttonList || []).length &&
           <div className='button-list'>
             {this.props.buttonList.map((button, index) => (
-              (button.type === 'github' &&
-              <a href={button.link} key={index}>
-                <FontAwesomeIcon icon={faGithub} />
-                {this.props.global.say.gitHub}
+              <a
+                href={button.link}
+                key={index}
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <FontAwesomeIcon
+                  icon={button.type === 'gitHub' ? faGithub : faGlobe}
+                />
+                {this.props.global.say[button.type]}
               </a>
-              ) ||
-              (button.type === 'website' &&
-              <a href={button.link} key={index}>
-                <FontAwesomeIcon icon={faGlobe} />
-                {this.props.global.say.website}
-              </a>
-              )
             ))}
           </div>
           }

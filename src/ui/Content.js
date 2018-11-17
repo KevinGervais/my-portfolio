@@ -15,7 +15,7 @@ export default class Content extends React.Component {
             date='2018 - ...'
             toolList={['React', 'NodeJs', 'MongoDb', 'MeteorJs', 'React-router']}
             buttonList={[
-              { type: 'github', link: 'https://github.com/KevinGervaisGilman/Calendar' },
+              { type: 'gitHub', link: 'https://github.com/KevinGervaisGilman/Calendar' },
               { type: 'website', link: 'https://rent-maya-calendar.herokuapp.com' }
             ]}
             image='rentMaya'
@@ -29,7 +29,7 @@ export default class Content extends React.Component {
             date='2016 - ...'
             toolList={['React', 'NodeJs', 'MongoDb', 'Socket.io', 'React-router', 'Affinity']}
             buttonList={[
-              { type: 'github', link: 'https://github.com/KevinGervaisGilman/Salsabil' }
+              { type: 'gitHub', link: 'https://github.com/KevinGervaisGilman/Salsabil' }
             ]}
             imageList={['salsabil1', 'salsabil2', 'salsabil3', 'salsabil4', 'salsabil5']}
           />
