@@ -1,0 +1,51 @@
+@import './variables.scss';
+
+.logo-list, .tool-list {
+  @include center;
+  flex-wrap: wrap;
+  padding: 20px;
+  border-radius: 5px;
+  img {
+    height: 50px;
+    margin: 10px;
+  }
+  .img-container {
+    transition: 0.1s all ease-in-out;
+    position: relative;
+  }
+  .img-container:hover {
+    transform: rotateX(10deg) rotateY(-10deg) rotateZ(5deg) scale(1.2);
+  }
+  .img-container:hover .tooltip {
+    display: flex;
+    
+  }
+  .tooltip {
+    @include center;
+    display: none;
+    position: absolute;
+    padding: 0 10px;
+    color: white;
+    background: hsla(0, 0%, 0%, 0.7);
+    width: max-content;
+    height: 30px;
+    bottom: 45px;
+    left:50%;
+    transform:translate(-50%, -100%);
+    text-align: center;
+    border-radius: 6px;
+    z-index: 2;
+}
+  .tooltip:after {
+    content: '';
+    position: absolute;
+    bottom: -16px;
+    left:50%;
+    transform:translate(-50%, -100%);
+    width: 0; height: 0;
+    border-top: 8px solid hsla(0, 0%, 0%, 0.7);
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+}
+}
+

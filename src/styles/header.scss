@@ -1,0 +1,70 @@
+@import './variables.scss';
+
+header {
+  h1 {
+    font-size: 8vw;
+  }
+  
+  .title {
+    @include center;
+    flex-direction: column;
+    height: calc(65vh);
+    width: 100%;
+    background: $primary40;
+    img {
+      margin: -75px 0 15px 0;
+      max-width: 600px;
+      max-height: 40vh;
+      width: 80vw;
+    }
+  }
+  .line {
+    width: 100%;
+    height: 5px;
+    @include noise;
+  }
+  .profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: calc(35vh);
+    background: $primary80;
+    .border {
+      @include center;
+      @include noise;
+      margin-top: -92.5px;
+      background: white;
+      width: 180px;
+      height: 180px;
+      border-radius: 90px;
+    }
+    .image {
+      width: 170px;
+      height: 170px;
+      background-color: $primary;
+      background-size: 170px;
+      background-position: center;
+      background-repeat: no-repeat;
+      border-radius: 85px;
+      box-shadow: inset 0 0 10px $primary30;
+    }
+    h2 {
+      font-size: 6vw;
+      color: $primary30;
+      margin-top: 40px;
+    }
+  }
+  
+}
+@media screen and (min-width: 750px) {
+  header {
+    h1 {
+      font-size: 60px !important;
+    }
+    h2 {
+      font-size: 40px !important;
+    }
+  }
+}
