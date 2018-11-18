@@ -7,11 +7,11 @@
 h1, h2 {
   font-family: heading, impact;
 }
+h3, p, span, a {
+  font-family: sans-serif;
+}
 h1 {
   @include text-noise;
-}
-h3, p {
-  font-family: sans-serif;
 }
 
 h3 {
