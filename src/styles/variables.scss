@@ -73,11 +73,11 @@ cursor: pointer;
   }
 }
 @mixin noise {
-  background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=4d4d4d&density=30&opacity=37);
+  background-image: url(../images/whitenoise.png);
   background-size: 150px;
 }
 @mixin smoothNoise {
-  background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=4d4d4d&density=7&opacity=37);
+  background-image: url(../images/whitenoiseSmooth.png);
   background-size: 150px;
 }
 @mixin text-noise {
