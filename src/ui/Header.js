@@ -16,7 +16,7 @@ export default class Header extends React.Component {
               style={{ backgroundImage: `url(${imageMap['dev']})` }}
             />
           </div>
-          <h2>Kevin Gervais Gilman</h2>
+          <h2>Kevin Gervais</h2>
         </div>
       </header>
     )
