@@ -11,6 +11,19 @@ export default class Content extends React.Component {
           <Logos title={this.props.global.say.logosTitle} />
           <Post
             {...this.props}
+            {...this.props.global.say.resolveMe}
+            date='2019 - ...'
+            toolList={['React', 'Redux', 'Electron']}
+            buttonList={[
+              { type: 'website', link: 'https://resolveme.herokuapp.com' },
+              { type: 'appStore', link: 'https://apps.apple.com/app/id1476584888?mt=12' }
+            ]}
+            noBorder
+            image='resolveme'
+            imageList={['resolveme1', 'resolveme2', 'resolveme3', 'resolveme4', 'resolveme5']}
+          />
+          <Post
+            {...this.props}
             {...this.props.global.say.rentMaya}
             date='2018 - ...'
             toolList={['React', 'NodeJs', 'MongoDb', 'MeteorJs', 'React-router']}

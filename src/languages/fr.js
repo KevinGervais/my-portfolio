@@ -2,6 +2,7 @@ export const fr = {
   developer: 'Developpeur Web',
   gitHub: 'Projet sur GitHub',
   website: 'Site web',
+  appStore: 'Mac app store',
   logosTitle: 'Technologies utilisées à travers les différents projets',
   schools: {
     title: 'Cheminement scolaire',
@@ -24,6 +25,15 @@ export const fr = {
         date: '2015',
         image: 'cegep'
       }
+    ]
+  },
+  resolveMe: {
+    title: 'Calculatrice scientifique de bureau',
+    subTitle: 'Resolve Me',
+    unorderedList: [
+      'Développer une calculatrice avec un un rendu avancé de l\'équation calculée',
+      'Optimiser le design au maximum pour être user-friendly et responsive',
+      'Fonctionnalités: Calculatrice élémentaire, scientifique, graphique, algébrique, programmeur, conversions, historique et constantes'
     ]
   },
   bell: {

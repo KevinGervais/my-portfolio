@@ -1,5 +1,7 @@
 export const WebsiteDict = {
   'React': 'https://reactjs.org/',
+  'Redux': 'https://redux.js.org',
+  'Electron': 'https://electronjs.org/',
   'React-router': 'https://reacttraining.com/react-router/',
   'React-Bootstrap': 'https://react-bootstrap.github.io/',
   'MongoDb': 'https://www.mongodb.com/fr',

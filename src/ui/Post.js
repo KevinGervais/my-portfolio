@@ -3,7 +3,7 @@ import ImageGalery from './ImageGalery'
 import imageMap from '../images'
 import { WebsiteDict } from '../WebsiteDict'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faAppStore } from '@fortawesome/free-brands-svg-icons'
 import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 export default class TopNav extends React.Component {
   render () {
@@ -12,7 +12,7 @@ export default class TopNav extends React.Component {
         <div className='header'>
           {this.props.image &&
             <div
-              className='picture'
+              className={`picture ${this.props.noBorder ? ' no-border' : ''}`}
               style={{ backgroundImage: `url(${imageMap[this.props.image]})` }}
             />
           }
@@ -35,7 +35,11 @@ export default class TopNav extends React.Component {
                 rel='noopener noreferrer'
               >
                 <FontAwesomeIcon
-                  icon={button.type === 'gitHub' ? faGithub : faGlobe}
+                  icon={{
+                    github: faGithub,
+                    website: faGlobe,
+                    appStore: faAppStore
+                  }[button.type]}
                 />
                 {this.props.global.say[button.type]}
               </a>

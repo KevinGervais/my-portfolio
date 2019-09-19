@@ -2,6 +2,7 @@ export const en = {
   developer: 'Web developer',
   gitHub: 'Project on GitHub',
   website: 'Web site',
+  appStore: 'Mac app store',
   logosTitle: 'Technologies used through the different projects',
   schools: {
     title: 'school background',
@@ -24,6 +25,15 @@ export const en = {
         date: '2015',
         image: 'cegep'
       }
+    ]
+  },
+  resolveMe: {
+    title: 'Desktop scientific calculator',
+    subTitle: 'Resolve Me',
+    unorderedList: [
+      'Develop a calculator with an advanced rendering of the calculated equation',
+      'Maximize design to be user-friendly and responsive',
+      'Features: Elementary calculator, scientific, graphical, algebric, programmer, conversions, history and constants'
     ]
   },
   bell: {
