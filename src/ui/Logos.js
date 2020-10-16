@@ -27,7 +27,6 @@ export default class TopNav extends React.Component {
   }
 }
 const imageList = [
-  'React', 'Redux', 'Electron', 'React-router', 'React-Bootstrap', 'MongoDb', 'NodeJs', 'MeteorJs', 'Express', 'Socket.io',
-  'Sass', 'Git', 'GitHub', 'NPM', 'Visual studio code', 'Atom', 'Affinity', 'JQuery',
-  'Wordpress'
+  'Typescript', 'React', 'Redux', 'Electron', 'Cordova', 'React-router', 'React-Bootstrap', 'MongoDb', 'NodeJs', 'Express', 'Socket.io', 'Jira',
+  'Sass', 'Git', 'GitHub', 'NightWatch', 'Cucumber Tests', 'Styled Components', 'Jest', 'NPM', 'MathJs', 'Visual studio code', 'Atom', 'Affinity'
 ]

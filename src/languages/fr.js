@@ -28,12 +28,13 @@ export const fr = {
     ]
   },
   resolveMe: {
-    title: 'Calculatrice scientifique de bureau',
+    title: 'Calculatrice scientifique multi-plateforme',
     subTitle: 'Resolve Me',
     unorderedList: [
-      'Développer une calculatrice avec un un rendu avancé de l\'équation calculée',
+      'Développer une calculatrice multifonctions performante et à la fine pointe de la technologie',
       'Optimiser le design au maximum pour être user-friendly et responsive',
-      'Fonctionnalités: Calculatrice élémentaire, scientifique, graphique, algébrique, programmeur, conversions, historique et constantes'
+      'Rendre l\'application disponible sur iphone, android, mac et windows',
+      'Fonctionnalités: Calculatrice élémentaire, scientifique, graphique, algébrique, programmeur, conversions etc'
     ]
   },
   bell: {

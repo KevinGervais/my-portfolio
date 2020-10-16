@@ -13,10 +13,9 @@ export default class Content extends React.Component {
             {...this.props}
             {...this.props.global.say.resolveMe}
             date='2019 - ...'
-            toolList={['React', 'Redux', 'Electron']}
+            toolList={['Typescript','React', 'Redux', 'Electron', 'Cordova', 'React-router', 'NodeJs', 'MongoDb', 'Express', 'NightWatch', 'Cucumber Tests', 'Styled Components', 'MathJs']}
             buttonList={[
-              { type: 'website', link: 'https://resolveme.herokuapp.com' },
-              { type: 'appStore', link: 'https://apps.apple.com/app/id1476584888?mt=12' }
+              { type: 'website', link: 'https://resolveme.io' },
             ]}
             noBorder
             image='resolveme'
@@ -63,14 +62,6 @@ export default class Content extends React.Component {
             toolList={['Affinity']}
             imageList={['caravana1', 'caravana2', 'caravana3', 'caravana4', 'caravana5']}
           />
-          <Post
-            {...this.props}
-            {...this.props.global.say.tasmim}
-            subTitle='tasmim.ca'
-            date='2017'
-            toolList={['Affinity', 'JQuery', 'Wordpress']}
-          />
-
         </div>
       </div>
     )

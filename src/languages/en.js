@@ -28,12 +28,13 @@ export const en = {
     ]
   },
   resolveMe: {
-    title: 'Desktop scientific calculator',
+    title: 'Multi-platform scientific calculator',
     subTitle: 'Resolve Me',
     unorderedList: [
-      'Develop a calculator with an advanced rendering of the calculated equation',
+      'Develop a performant calculator at the cutting edge of technology',
       'Maximize design to be user-friendly and responsive',
-      'Features: Elementary calculator, scientific, graphical, algebric, programmer, conversions, history and constants'
+      'Make the app available on iphone, android, mac and windows',
+      'Features: Elementary calculator, scientific, graphical, algebric, programmer, conversions, etc'
     ]
   },
   bell: {
