@@ -5,4 +5,5 @@ const exportFiles = allJSfilesInFolder.keys().reduce((list, file) => {
   list[file.slice(2, -4)] = allJSfilesInFolder(file)
   return list
 }, {})
+console.log(exportFiles)
 export default exportFiles
